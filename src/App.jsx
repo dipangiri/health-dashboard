@@ -1,4 +1,4 @@
-import { Routes, Route, Link, NavLink } from 'react-router-dom';
+import { Routes, Route, NavLink, useLocation } from 'react-router-dom';
 import DashboardPage from './pages/DashboardPage';
 import AlertsPage from './pages/AlertsPage';
 import SensorDetailPage from './pages/SensorDetailPage';
@@ -9,6 +9,26 @@ import SettingsPage from './pages/SettingsPage';
 import { Outlet } from 'react-router-dom';
 
 function App() {
+  const location = useLocation();
+
+  const getHeaderTitle = (pathname) => {
+    switch (true) {
+      case pathname === '/':
+        return 'Dashboard Overview';
+      case pathname === '/alerts':
+        return 'Alerts';
+      case pathname === '/map-view':
+        return 'Map View';
+      case pathname === '/settings':
+        return 'Settings';
+      case pathname.startsWith('/sensors/'):
+        return 'Sensor Details';
+      default:
+        return 'Dashboard';
+    }
+  };
+  const headerTitle = getHeaderTitle(location.pathname);
+  
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
@@ -27,7 +47,7 @@ function App() {
       <div className="flex-1 flex flex-col overflow-hidden">
         <header className="bg-white shadow p-4">
           {/* This header could be dynamic later */}
-          <h2 className="text-xl font-semibold text-gray-800">Dashboard Overview</h2>
+          <h2 className="text-xl font-semibold text-gray-800">{headerTitle}</h2>
         </header>
         <main className="flex flex-col flex-1 p-6 overflow-y-auto">
           <Routes>

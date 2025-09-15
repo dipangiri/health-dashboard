@@ -46,6 +46,7 @@ function MapComponent() {
               <b>Sensor ID:</b> {sensor.id}<br />
               <b>Village:</b> {sensor.village}<br />
               <b>Status:</b> <span className={sensor.status === 'online' ? 'text-green-600' : 'text-red-600'}>{sensor.status}</span><br/>
+              <b>Temperature:</b> {sensor.readings.temperature} °C<br/>
               <Link to={`/sensors/${sensor.id}`} className="text-blue-600 hover:underline">
                 View Details
               </Link>

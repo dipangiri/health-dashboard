@@ -30,6 +30,7 @@ function WaterQualityChart({ data, title }) {
           <Line type="monotone" dataKey="ph" stroke="#8884d8" name="pH" />
           <Line type="monotone" dataKey="turbidity" stroke="#82ca9d" name="Turbidity (NTU)" />
           <Line type="monotone" dataKey="tds" stroke="#ffc658" name="TDS (ppm)" />
+          <Line type="monotone" dataKey="temperature" stroke="#ff7300" name="Temp (°C)" />
         </LineChart>
       </ResponsiveContainer>
     </div>

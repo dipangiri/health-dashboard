@@ -12,7 +12,8 @@
       "readings": {
         "ph": 7.1,
         "turbidity": 4.2,
-        "tds": 250
+        "tds": 250,
+        "temperature": 24.5
       }
     },
     {
@@ -27,7 +28,8 @@
       "readings": {
         "ph": 6.8,
         "turbidity": 8.9,
-        "tds": 380
+        "tds": 380,
+        "temperature": 22.8
       }
     },
     {
@@ -42,7 +44,8 @@
       "readings": {
         "ph": 7.0,
         "turbidity": 5.1,
-        "tds": 310
+        "tds": 310,
+        "temperature": 22.8
       }
     }
   ],
@@ -108,7 +111,8 @@
       "timestamp": "2025-09-15T04:00:00Z",
       "ph": 7.0,
       "turbidity": 4.5,
-      "tds": 240
+      "tds": 240,
+      "temperature": 24.1
     },
     {
       "id": 2,
@@ -116,7 +120,8 @@
       "timestamp": "2025-09-15T05:00:00Z",
       "ph": 7.1,
       "turbidity": 4.2,
-      "tds": 250
+      "tds": 250,
+      "temperature": 24.3
     },
     {
       "id": 3,
@@ -124,7 +129,8 @@
       "timestamp": "2025-09-15T06:00:00Z",
       "ph": 7.0,
       "turbidity": 4.3,
-      "tds": 255
+      "tds": 255,
+      "temperature": 24.4
     },
     {
       "id": 4,
@@ -132,7 +138,8 @@
       "timestamp": "2025-09-15T07:00:00Z",
       "ph": 6.9,
       "turbidity": 5.1,
-      "tds": 280
+      "tds": 280,
+      "temperature": 24.8
     },
     {
       "id": 5,
@@ -140,7 +147,8 @@
       "timestamp": "2025-09-15T08:00:00Z",
       "ph": 7.1,
       "turbidity": 4.8,
-      "tds": 260
+      "tds": 260,
+      "temperature": 24.7
     },
     {
       "id": 6,
@@ -148,7 +156,8 @@
       "timestamp": "2025-09-15T09:00:00Z",
       "ph": 7.2,
       "turbidity": 4.6,
-      "tds": 250
+      "tds": 250,
+      "temperature": 24.6
     },
     {
       "id": 7,
@@ -156,119 +165,8 @@
       "timestamp": "2025-09-15T10:00:00Z",
       "ph": 7.1,
       "turbidity": 4.2,
-      "tds": 250
-    },
-    {
-      "id": 8,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T04:00:00Z",
-      "ph": 6.8,
-      "turbidity": 3.9,
-      "tds": 230
-    },
-    {
-      "id": 9,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T05:00:00Z",
-      "ph": 7.0,
-      "turbidity": 4.1,
-      "tds": 240
-    },
-    {
-      "id": 10,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T06:00:00Z",
-      "ph": 7.1,
-      "turbidity": 4.0,
-      "tds": 245
-    },
-    {
-      "id": 11,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T07:00:00Z",
-      "ph": 6.9,
-      "turbidity": 4.3,
-      "tds": 260
-    },
-    {
-      "id": 12,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T08:00:00Z",
-      "ph": 7.0,
-      "turbidity": 4.4,
-      "tds": 250
-    },
-    {
-      "id": 13,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T09:00:00Z",
-      "ph": 7.1,
-      "turbidity": 4.1,
-      "tds": 245
-    },
-    {
-      "id": 14,
-      "sensorId": "SN002",
-      "timestamp": "2025-09-15T10:00:00Z",
-      "ph": 7.2,
-      "turbidity": 4.0,
-      "tds": 240
-    },
-    {
-      "id": 15,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T04:00:00Z",
-      "ph": 7.3,
-      "turbidity": 5.2,
-      "tds": 270
-    },
-    {
-      "id": 16,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T05:00:00Z",
-      "ph": 7.2,
-      "turbidity": 5.0,
-      "tds": 265
-    },
-    {
-      "id": 17,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T06:00:00Z",
-      "ph": 7.1,
-      "turbidity": 5.1,
-      "tds": 260
-    },
-    {
-      "id": 18,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T07:00:00Z",
-      "ph": 7.0,
-      "turbidity": 5.3,
-      "tds": 280
-    },
-    {
-      "id": 19,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T08:00:00Z",
-      "ph": 7.2,
-      "turbidity": 5.0,
-      "tds": 275
-    },
-    {
-      "id": 20,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T09:00:00Z",
-      "ph": 7.1,
-      "turbidity": 5.2,
-      "tds": 270
-    },
-    {
-      "id": 21,
-      "sensorId": "SN003",
-      "timestamp": "2025-09-15T10:00:00Z",
-      "ph": 7.0,
-      "turbidity": 5.4,
-      "tds": 265
+      "tds": 250,
+      "temperature": 24.5
     }
   ]
 }

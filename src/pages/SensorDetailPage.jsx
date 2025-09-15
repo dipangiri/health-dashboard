@@ -1,4 +1,3 @@
-// in src/pages/SensorDetailPage.jsx
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import WaterQualityChart from '../components/WaterQualityChart';
@@ -39,7 +38,7 @@ function SensorDetailPage() {
       <h2 className="text-3xl font-bold text-gray-800">Sensor Details: {sensor.id}</h2>
       <p className="text-lg text-gray-600">Village: {sensor.village}</p>
 
-      <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="mt-4 grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="bg-white p-4 rounded-lg shadow">
           <h4 className="font-bold text-gray-600">Status</h4>
           <p className={`text-xl font-bold ${sensor.status === 'online' ? 'text-green-600' : 'text-red-600'}`}>
@@ -50,9 +49,13 @@ function SensorDetailPage() {
           <h4 className="font-bold text-gray-600">Last Reading (pH)</h4>
           <p className="text-xl font-bold text-gray-800">{sensor.readings.ph}</p>
         </div>
-         <div className="bg-white p-4 rounded-lg shadow">
+        <div className="bg-white p-4 rounded-lg shadow">
           <h4 className="font-bold text-gray-600">Last Reading (Turbidity)</h4>
           <p className="text-xl font-bold text-gray-800">{sensor.readings.turbidity} NTU</p>
+        </div>
+        <div className="bg-white p-4 rounded-lg shadow">
+          <h4 className="font-bold text-gray-600">Last Reading (Temp)</h4>
+          <p className="text-xl font-bold text-gray-800">{sensor.readings.temperature} °C</p>
         </div>
       </div>
 
