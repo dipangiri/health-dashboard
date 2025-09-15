@@ -1,0 +1,274 @@
+{
+  "sensors": [
+    {
+      "id": "SN001",
+      "village": "Mawlynnong",
+      "location": {
+        "lat": 25.195,
+        "lng": 91.918
+      },
+      "status": "online",
+      "last_updated": "2025-09-15T10:00:00Z",
+      "readings": {
+        "ph": 7.1,
+        "turbidity": 4.2,
+        "tds": 250
+      }
+    },
+    {
+      "id": "SN002",
+      "village": "Ziro",
+      "location": {
+        "lat": 27.575,
+        "lng": 93.834
+      },
+      "status": "online",
+      "last_updated": "2025-09-15T10:05:00Z",
+      "readings": {
+        "ph": 6.8,
+        "turbidity": 8.9,
+        "tds": 380
+      }
+    },
+    {
+      "id": "SN003",
+      "village": "Mokokchung",
+      "location": {
+        "lat": 26.328,
+        "lng": 94.518
+      },
+      "status": "offline",
+      "last_updated": "2025-09-14T22:15:00Z",
+      "readings": {
+        "ph": 7.0,
+        "turbidity": 5.1,
+        "tds": 310
+      }
+    }
+  ],
+  "healthReports": [
+    {
+      "id": "HR01",
+      "village": "Ziro",
+      "symptoms": [
+        "diarrhea",
+        "fever"
+      ],
+      "cases": 5,
+      "reported_at": "2025-09-15T08:30:00Z"
+    },
+    {
+      "id": "HR02",
+      "village": "Mawlynnong",
+      "symptoms": [
+        "vomiting"
+      ],
+      "cases": 2,
+      "reported_at": "2025-09-15T09:10:00Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALRT01",
+      "sensorId": "SN002",
+      "message": "High turbidity detected in Ziro.",
+      "level": "warning",
+      "timestamp": "2025-09-15T10:05:00Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALRT02",
+      "sensorId": "SN003",
+      "message": "Sensor SN003 in Mokokchung has gone offline.",
+      "level": "critical",
+      "timestamp": "2025-09-15T11:30:00Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALRT03",
+      "sensorId": "SN001",
+      "message": "pH level is slightly acidic in Mawlynnong.",
+      "level": "warning",
+      "timestamp": "2025-09-15T12:15:00Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALRT04",
+      "sensorId": "SN002",
+      "message": "Turbidity levels have returned to normal in Ziro.",
+      "level": "info",
+      "timestamp": "2025-09-15T14:00:00Z",
+      "acknowledged": false
+    }
+  ],
+  "sensorHistory": [
+    {
+      "id": 1,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T04:00:00Z",
+      "ph": 7.0,
+      "turbidity": 4.5,
+      "tds": 240
+    },
+    {
+      "id": 2,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T05:00:00Z",
+      "ph": 7.1,
+      "turbidity": 4.2,
+      "tds": 250
+    },
+    {
+      "id": 3,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T06:00:00Z",
+      "ph": 7.0,
+      "turbidity": 4.3,
+      "tds": 255
+    },
+    {
+      "id": 4,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T07:00:00Z",
+      "ph": 6.9,
+      "turbidity": 5.1,
+      "tds": 280
+    },
+    {
+      "id": 5,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T08:00:00Z",
+      "ph": 7.1,
+      "turbidity": 4.8,
+      "tds": 260
+    },
+    {
+      "id": 6,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T09:00:00Z",
+      "ph": 7.2,
+      "turbidity": 4.6,
+      "tds": 250
+    },
+    {
+      "id": 7,
+      "sensorId": "SN001",
+      "timestamp": "2025-09-15T10:00:00Z",
+      "ph": 7.1,
+      "turbidity": 4.2,
+      "tds": 250
+    },
+    {
+      "id": 8,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T04:00:00Z",
+      "ph": 6.8,
+      "turbidity": 3.9,
+      "tds": 230
+    },
+    {
+      "id": 9,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T05:00:00Z",
+      "ph": 7.0,
+      "turbidity": 4.1,
+      "tds": 240
+    },
+    {
+      "id": 10,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T06:00:00Z",
+      "ph": 7.1,
+      "turbidity": 4.0,
+      "tds": 245
+    },
+    {
+      "id": 11,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T07:00:00Z",
+      "ph": 6.9,
+      "turbidity": 4.3,
+      "tds": 260
+    },
+    {
+      "id": 12,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T08:00:00Z",
+      "ph": 7.0,
+      "turbidity": 4.4,
+      "tds": 250
+    },
+    {
+      "id": 13,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T09:00:00Z",
+      "ph": 7.1,
+      "turbidity": 4.1,
+      "tds": 245
+    },
+    {
+      "id": 14,
+      "sensorId": "SN002",
+      "timestamp": "2025-09-15T10:00:00Z",
+      "ph": 7.2,
+      "turbidity": 4.0,
+      "tds": 240
+    },
+    {
+      "id": 15,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T04:00:00Z",
+      "ph": 7.3,
+      "turbidity": 5.2,
+      "tds": 270
+    },
+    {
+      "id": 16,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T05:00:00Z",
+      "ph": 7.2,
+      "turbidity": 5.0,
+      "tds": 265
+    },
+    {
+      "id": 17,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T06:00:00Z",
+      "ph": 7.1,
+      "turbidity": 5.1,
+      "tds": 260
+    },
+    {
+      "id": 18,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T07:00:00Z",
+      "ph": 7.0,
+      "turbidity": 5.3,
+      "tds": 280
+    },
+    {
+      "id": 19,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T08:00:00Z",
+      "ph": 7.2,
+      "turbidity": 5.0,
+      "tds": 275
+    },
+    {
+      "id": 20,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T09:00:00Z",
+      "ph": 7.1,
+      "turbidity": 5.2,
+      "tds": 270
+    },
+    {
+      "id": 21,
+      "sensorId": "SN003",
+      "timestamp": "2025-09-15T10:00:00Z",
+      "ph": 7.0,
+      "turbidity": 5.4,
+      "tds": 265
+    }
+  ]
+}
